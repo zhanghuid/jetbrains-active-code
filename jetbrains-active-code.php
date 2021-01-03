@@ -23,7 +23,7 @@ function getCookie()
     global $baseUrl;
     $getCookieUrl = "${baseUrl}/indexcode.html";
 
-    $re = http($getCookieUrl, ['key' => 'lookdiv.com'], 1);
+    $re = http($getCookieUrl, ['key' => 'www.lookdiv.com'], 1);
     list($header, $body) = explode("\r\n\r\n", $re);
     // 解析COOKIE
     preg_match("/set\-cookie:([^\r\n]*)/i", $header, $matches);
