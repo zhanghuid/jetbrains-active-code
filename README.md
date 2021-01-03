@@ -10,3 +10,5 @@ git clone git@github.com:zhanghuid/jetbrains-active-code.git
 ```
 php jetbrains-active-code
 ```
+
+**支持jetbrains 2020.03**
